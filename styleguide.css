@@ -1,0 +1,150 @@
+/* styleguide.css (DEPT styleguide tokens + typography) */
+
+/* Fonts (lokaal) */
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Design tokens */
+:root {
+  /* Colors (jouw styleguide) */
+  --black: #000000;
+  --rose: #F0EBFE;
+  --purple: #5115F7;
+
+  --grey-900: #000000;
+  --grey-400: #9D9D9D;
+  --grey-300: #C4C4C4;
+  --grey-200: #D9D9D9;
+  --grey-100: #E9E9E9;
+  --grey-50: #F5F5F5;
+
+  /* Semantic */
+  --text: var(--black);
+  --text-muted: var(--grey-400);
+  --bg: var(--grey-50);
+  --surface: #ffffff;
+  --border: var(--grey-200);
+
+  /* UI */
+  --radius: 12px;
+  --btn-padding: 12px 16px;
+
+  /* Typography scale (heading hierarchy) */
+  --h1-size: clamp(2rem, 6vw, 4.5rem);
+  --h1-line: clamp(2.5rem, 7vw, 5.375rem);
+
+  --h2-size: clamp(1rem, 5vw, 3.75rem);
+  --h2-line: clamp(2.5rem, 6vw, 4.5rem);
+
+  --h3-size: clamp(1.125rem, 4vw, 3rem);
+  --h3-line: clamp(2.25rem, 5vw, 3.5rem);
+
+  --h4-size: clamp(1.5rem, 3.5vw, 2.25rem);
+  --h4-line: clamp(2rem, 4vw, 2.6875rem);
+
+  --h5-size: clamp(1.125rem, 3vw, 1.5rem);
+  --h5-line: 1.75rem;
+
+  --h6-size: clamp(0.75rem, 2.5vw, 1.125rem);
+  --h6-line: clamp(1.5rem, 3vw, 1.75rem);
+
+  --p-size: clamp(1rem, 2.5vw, 1.125rem);
+  --p-line: clamp(1.5rem, 4vw, 1.875rem);
+}
+
+/* Base typography */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: var(--p-size);
+  line-height: var(--p-line);
+  color: var(--text);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+  margin: 0 0 25px 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: var(--h2-size);
+  line-height: var(--h2-line);
+  margin: 0 0 16px 0;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: var(--h3-size);
+  line-height: var(--h3-line);
+  margin: 0 0 12px 0;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: var(--h4-size);
+  line-height: var(--h4-line);
+  margin: 0 0 12px 0;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: var(--h5-size);
+  line-height: var(--h5-line);
+  margin: 0 0 8px 0;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: var(--h6-size);
+  line-height: var(--h6-line);
+  margin: 0 0 8px 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: var(--p-size);
+  line-height: var(--p-line);
+  margin: 0 0 12px 0;
+}
