@@ -1,6 +1,4 @@
-/* styleguide.css (DEPT styleguide tokens + typography) */
 
-/* Fonts (lokaal) */
 @font-face {
   font-family: "Lato";
   src: url("../fonts/Lato-Light.ttf") format("truetype");
@@ -43,9 +41,8 @@
   font-style: normal;
 }
 
-/* Design tokens */
 :root {
-  /* Colors (jouw styleguide) */
+  
   --black: #000000;
   --rose: #F0EBFE;
   --purple: #5115F7;
@@ -57,18 +54,16 @@
   --grey-100: #E9E9E9;
   --grey-50: #F5F5F5;
 
-  /* Semantic */
+  
   --text: var(--black);
   --text-muted: var(--grey-400);
   --bg: var(--grey-50);
   --surface: #ffffff;
   --border: var(--grey-200);
 
-  /* UI */
   --radius: 12px;
   --btn-padding: 12px 16px;
 
-  /* Typography scale (heading hierarchy) */
   --h1-size: clamp(2rem, 6vw, 4.5rem);
   --h1-line: clamp(2.5rem, 7vw, 5.375rem);
 
@@ -91,7 +86,6 @@
   --p-line: clamp(1.5rem, 4vw, 1.875rem);
 }
 
-/* Base typography */
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
