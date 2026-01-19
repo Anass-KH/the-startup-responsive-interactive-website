@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styleguide.css">
   <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
   <title>DEPT® Weather Planner</title>
 </head>
 <body>
@@ -74,7 +75,21 @@
           placeholder="Enter your email address"
           required
         >
-        <button class="btn btn-primary" type="submit">Submit</button>
+         <button class="btn btn-primary submit-btn" type="submit">
+           <span class="btn-text">Submit</span>
+
+           <span class="checkmark" hidden>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M20 6L9 17l-5-5"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            </svg>
+            </span>
+          </button>
       </form>
     </section>
 
