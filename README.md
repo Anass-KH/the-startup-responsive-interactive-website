@@ -13,11 +13,8 @@ https://anass-kh.github.io/the-startup-responsive-interactive-website/
 
 <img width="1800" height="760" alt="all-devices-black (1)" src="https://github.com/user-attachments/assets/a98c9393-1bc8-434b-931f-05db518deb4f" />
 ## Ontwerp
-Het ontwerp is uitgewerkt volgens een **mobile-first aanpak**.  
+Het ontwerp is uitgewerkt volgens een mobile-first aanpak.  
 De layout is eerst ontworpen voor kleine schermen (minimaal 320px) en daarna uitgebreid voor tablet en desktop.
-
-Voor desktop is een **hi-fi ontwerp** gebruikt als leidraad.  
-De tabletweergave is zelfstandig geïnterpreteerd, zoals gevraagd in de opdracht.
 
 ## Naamgeving
 Voor de naamgeving zijn vaste conventies aangehouden:
@@ -48,9 +45,9 @@ Het weeroverzicht is opgebouwd met een semantische tabel met een <thead> en rij-
 [`index.html` – regels 113–131](./index.html#L113-L131)
 
 ### CSS 
-De CSS is **mobile-first** geschreven en opgebouwd met een duidelijke structuur.
+De CSS is mobile-first geschreven en opgebouwd met een duidelijke structuur.
 
-De layout is gebaseerd op een **container met een maximale breedte van 1440px**, zodat content leesbaar blijft op grote schermen terwijl de achtergrond full-width kan doorlopen.
+De layout is gebaseerd op een container met een maximale breedte van 1440px zodat content leesbaar blijft op grote schermen terwijl de achtergrond full-width kan doorlopen.
 
 **Container-structuur:**  
 [`style.css` – regels 24–32](./style.css#L24-L32)
